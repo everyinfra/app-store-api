@@ -4,7 +4,7 @@
 
 ## English
 
-This repo reads public App Store data with Python or curl. You can search apps by keyword and read an app's details and user reviews. You need one EveryInfra API key. You do not need an App Store account or cookie. The same API also works as an MCP tool in Claude and Cursor. Billing is per call: these 3 capabilities cost $1.39 per 1,000 calls (about $0.0014 per call). Failed calls and empty results are not charged. The EveryInfra App Store API has 7 capabilities, all listed on the platform page: <https://everyinfra.com/en/app-store-api?utm_source=github&utm_medium=example_repo&utm_campaign=app-store-api>
+This repo reads public App Store data with Python or curl. You can search apps by keyword and read an app's details and user reviews. You need one EveryInfra API key. You do not need an Apple account or cookie. The same API also works as an MCP tool in Claude and Cursor. Billing is per call: these 3 capabilities cost $1.39 per 1,000 calls (about $0.0014 per call). Failed calls and empty results are not charged. The EveryInfra App Store API has 7 capabilities, all listed on the platform page: <https://everyinfra.com/en/app-store-api?utm_source=github&utm_medium=example_repo&utm_campaign=app-store-api>
 
 ### Quick start
 
@@ -168,7 +168,7 @@ All parameters and fields: <https://everyinfra.com/en/app-store-api/reviews?utm_
 
 ### FAQ
 
-**Do I need an App Store account or cookie to call the API?**
+**Do I need an Apple account or cookie to call the API?**
 
 No. Send the `Authorization: Bearer` header with your API key. The request body holds `platform`, `action`, and the capability parameters. You do not scan a QR code, keep a login session, or open a browser.
 
@@ -210,7 +210,7 @@ Before release, we ran the 3 commands in Quick start against the live API with t
 
 ## 中文
 
-本仓库用 Python 或 curl 读 App Store 公开数据：按关键词搜应用，读应用详情和用户评价。只需一把 EveryInfra API Key，不用 App Store 账号和 Cookie，也能作为 MCP 工具接进 Claude、Cursor。按调用次数计费，这 3 个能力每千次 $1.39（每次约 $0.0014），失败和空结果不收费。App Store 共 7 个能力：<https://everyinfra.com/app-store-api?utm_source=github&utm_medium=example_repo&utm_campaign=app-store-api>
+本仓库用 Python 或 curl 读 App Store 公开数据：按关键词搜应用，读应用详情和用户评价。只需一把 EveryInfra API Key，不用 Apple 账号和 Cookie，也能作为 MCP 工具接进 Claude、Cursor。按调用次数计费，这 3 个能力每千次 $1.39（每次约 $0.0014），失败和空结果不收费。App Store 共 7 个能力：<https://everyinfra.com/app-store-api?utm_source=github&utm_medium=example_repo&utm_campaign=app-store-api>
 
 ### 快速开始
 
@@ -374,7 +374,7 @@ Claude 网页版和桌面版的自定义连接器、ChatGPT 只能填网址：�
 
 ### 常见问题
 
-**调用时要不要提供 App Store 账号或 Cookie？**
+**调用时要不要提供 Apple 账号或 Cookie？**
 
 不用，请求头带 `Authorization: Bearer` 和 API Key 就能调，请求体写 `platform`、`action` 和能力参数。不用扫码、维护登录状态，也不用开浏览器。
 
